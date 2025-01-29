@@ -35,3 +35,14 @@ router.delete('/:id', (req, res) => {
 
 
 export default router;
+
+
+
+// ------------- index.mjs -------------
+
+// import express from 'express';
+// import userRoutes from './routes/users.mjs'; // Import user routes
+
+// const app = express();
+// app.use(express.json()); // Middleware to parse JSON requests
+// app.use('/users', userRoutes); // Mount user routes
